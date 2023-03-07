@@ -39,6 +39,10 @@ const contactRouter = require('./router/contact')
 
 app.use('/db', contactRouter)
 
+
+const blogRouter = require('./router/blog')
+app.use('/db', blogRouter)
+
 app.listen(port, ()=>{
     console.log(`app sever running at ${port}`)
 })
