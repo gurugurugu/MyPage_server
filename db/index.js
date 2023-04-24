@@ -1,10 +1,11 @@
 const mysql = require('mysql')
 
 const db = mysql.createPool({
-    host: 'sql12.freesqldatabase.com',
-    user: 'sql12603428',
-    password: 'xlEMtaTN4p',
-    database: 'sql12603428',
+    host: 'aws.connect.psdb.cloud',
+    user: '9wrdj94rf4t0ijkv5jxq',
+    password: 'pscale_pw_iboBxQHPdaBUyRuF0eKjZq0mMtSLmyxBkaAr0qhLZLD',
+    database: 'mypage',
+    ssl:{"rejectUnauthorized":true}
 })
 
 // const db = mysql.createPool({
